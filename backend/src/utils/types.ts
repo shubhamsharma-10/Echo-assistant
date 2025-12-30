@@ -1,0 +1,1 @@
+export type IssueType = 'billing' | 'tech' | 'shipping' | 'account' | 'other';
