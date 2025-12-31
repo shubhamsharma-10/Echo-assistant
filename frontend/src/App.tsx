@@ -2,7 +2,8 @@ import { useState, useRef, useEffect } from 'react'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 
-const API_URL = 'http://localhost:3000/api/chat'
+const API_URL = import.meta.env.VITE_API_BASE_URL + '/api/chat'
+console.log(API_URL)
 
 interface Message {
   id: number
