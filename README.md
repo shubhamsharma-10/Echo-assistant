@@ -22,7 +22,7 @@
 
 | Component | URL |
 |-----------|----- |
-| **🎬 Demo Video** | [▶️ Watch 3-Minute Walkthrough](YOUR_VIDEO_LINK_HERE) |
+| **🎬 Demo Video** | [Watch 3-Minute Walkthrough](https://www.youtube.com/watch?v=iVfn-5mLUjw) |
 | **Frontend (Chat UI)** | [https://echo-assistant.vercel.app](https://echo-assistant.vercel.app) |
 | **Backend API** | [https://echo-assistant.onrender.com](https://echo-assistant.onrender.com) |
 | **Datadog Dashboard** | [Echo Assistant Dashboard](https://p.us5.datadoghq.com/sb/d1266562-8adb-11f0-ab5a-1e83834f2a72-647bbc72c973895dcebb7304e7661fe3) |
