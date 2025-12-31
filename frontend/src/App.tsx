@@ -102,7 +102,7 @@ function App() {
             <span className="text-xs text-gray-400 uppercase tracking-wider">Powered by Gemini</span>
           </div>
           <h1 className="text-3xl font-bold bg-gradient-to-r from-white via-purple-200 to-blue-200 bg-clip-text text-transparent">
-            TechGadget AI Support
+            Echo Assistant
           </h1>
           <p className="text-gray-500 text-sm mt-1">Quality-Monitored • Real-Time Observability</p>
         </div>
@@ -143,8 +143,8 @@ function App() {
                   <div className="max-w-[80%]">
                     <div
                       className={`px-4 py-3 rounded-2xl ${msg.role === 'user'
-                          ? 'bg-gradient-to-r from-purple-600 to-blue-600 text-white'
-                          : 'bg-white/5 border border-white/10 text-gray-200'
+                        ? 'bg-gradient-to-r from-purple-600 to-blue-600 text-white'
+                        : 'bg-white/5 border border-white/10 text-gray-200'
                         }`}
                     >
                       <p className="text-sm leading-relaxed">{msg.content}</p>
