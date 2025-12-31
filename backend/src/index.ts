@@ -1,8 +1,10 @@
 import express, { Request, Response } from "express";
 import chatRouter from "./routes/chat.route.js";
-
+import cors from 'cors';
 const app = express();
 
+// Enable CORS for frontend
+app.use(cors());
 app.use(express.json());
 app.use('/api', chatRouter)
 
